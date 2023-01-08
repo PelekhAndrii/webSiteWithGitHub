@@ -88,7 +88,8 @@ h1 {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
-    background-image: url(./Images/description-bg.jpg);
+    background-image: url("./Images/description bg.jpg");
+    background-repeat: no-repeat;
 }
 
 .mackbook {
