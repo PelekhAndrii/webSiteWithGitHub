@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(./Images/photo-1433354359170-23a4ae7338c6.jpg);
+    
+    background-size: cover;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 70px;
+    text-align: center;
+}
+
+.container {
+    height: 800px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.play_btn {
+    width: 70px;
+
+}
+
+.inBtnIcon {
+    padding: 20px;
+    background-color: white;
+}
+
+.orangeBtn {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 102, 0);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.left-col {
+    background-color: white;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.orangeText {
+    color: rgb(253, 104, 49);
+}
+
+.main-text {
+    color: gray;
+    font-size: 25px;
+}
+
+.right-col {
+    background-color: gainsboro;
+    position: relative;
+    overflow: hidden;
+}
+
+.orangeDecoration {
+    background-color:  rgb(255, 102, 0);
+    transform: skewY(-40deg);
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    bottom: -345px;
+}
