@@ -79,11 +79,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
-    background-image: url("./Images/description bg.jpg");
-<<<<<<< HEAD
-=======
-    background-repeat: no-repeat;
->>>>>>> d34413ac9603869289d7d7f5e95fff8a0a338bd0
+    background-image: url("./Images/description-bg.jpg");
     background-size: cover;
 }
 
@@ -102,6 +98,7 @@ h1 {
 .card-container {
     display: flex;
     justify-content: space-between;
+    gap: 100px;
 }
 
 .card {
