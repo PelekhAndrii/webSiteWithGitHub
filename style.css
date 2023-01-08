@@ -90,6 +90,7 @@ h1 {
     align-items: center;
     background-image: url("./Images/description bg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mackbook {
