@@ -80,6 +80,10 @@ h1 {
     gap: 50px;
     align-items: center;
     background-image: url("./Images/description bg.jpg");
+<<<<<<< HEAD
+=======
+    background-repeat: no-repeat;
+>>>>>>> d34413ac9603869289d7d7f5e95fff8a0a338bd0
     background-size: cover;
 }
 
@@ -89,7 +93,7 @@ h1 {
 
 .clients {
     padding: 100px;
-    background-color: rgb(32, 31, 31);
+    background-image: url(./Images/bg-clients.jpg);
     display: flex;
     flex-direction: column;
     gap: 60px;
