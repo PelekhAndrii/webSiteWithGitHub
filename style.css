@@ -68,7 +68,7 @@ h1 {
 }
 
 .right-col {
-    background-image: url(./Images/decoration.jpg);
+    background-image: url("./Images/decoration.jpg");
     background-size: cover;
 }
 
@@ -89,7 +89,7 @@ h1 {
 
 .clients {
     padding: 100px;
-    background-image: url(./Images/bg-clients.jpg);
+    background-image: url("./Images/bg-clients.jpg");
     display: flex;
     flex-direction: column;
     gap: 60px;
