@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-image: url(./Images/photo-1433354359170-23a4ae7338c6.jpg);
+    background-image: url("./Images/photo-1433354359170-23a4ae7338c6.jpg");
     background-size: 100% 100%;
 }
 
@@ -88,7 +88,8 @@ h1 {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
-    background-image: url(./Images/description-bg.jpg);
+    background-image: url("./Images/description bg.jpg");
+    background-repeat: no-repeat;
 }
 
 .mackbook {
