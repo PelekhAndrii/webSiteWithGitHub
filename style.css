@@ -68,19 +68,10 @@ h1 {
 }
 
 .right-col {
-    background-color: gainsboro;
-    position: relative;
-    overflow: hidden;
+    background-image: url(./Images/decoration.jpg);
+    background-size: cover;
 }
 
-.orangeDecoration {
-    background-color:  rgb(255, 102, 0);
-    transform: skewY(-40deg);
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    bottom: -345px;
-}
 
 .description {
     padding: 50px;
@@ -89,9 +80,56 @@ h1 {
     gap: 50px;
     align-items: center;
     background-image: url("./Images/description bg.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mackbook {
     width: 100%;
+}
+
+.clients {
+    padding: 100px;
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.card-text {
+    color: gray;
+    text-align: center;
+}
+
+.title {
+    color: white;
+}
+
+.status {
+    color: rgb(156, 90, 64);
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-icon {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.client-icons-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
 }
