@@ -72,6 +72,15 @@ h1 {
     background-size: cover;
 }
 
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    background-image: url("./Images/section3bg.jpg");
+    background-size: cover;
+    gap: 50px;
+}
 
 .description {
     padding: 50px;
